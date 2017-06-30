@@ -46,6 +46,11 @@
 		840854191F04DE4600D2AA17 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 840854041F04DE4600D2AA17 /* UIImageView+WebCache.m */; };
 		8408541A1F04DE4600D2AA17 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 840854061F04DE4600D2AA17 /* UIView+WebCache.m */; };
 		8408541B1F04DE4600D2AA17 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 840854081F04DE4600D2AA17 /* UIView+WebCacheOperation.m */; };
+		844897391F06441100CD35DD /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844897381F06441100CD35DD /* ListViewController.m */; };
+		8448973C1F06448000CD35DD /* ListControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448973B1F06448000CD35DD /* ListControl.m */; };
+		84EC3FE21F064D1A00267D4A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3FE11F064D1A00267D4A /* TableViewCell.m */; };
+		84EC3FE81F06551300267D4A /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3FE51F06551300267D4A /* YYFPSLabel.m */; };
+		84EC3FE91F06551300267D4A /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC3FE71F06551300267D4A /* YYWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +154,16 @@
 		840854061F04DE4600D2AA17 /* UIView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCache.m"; sourceTree = "<group>"; };
 		840854071F04DE4600D2AA17 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		840854081F04DE4600D2AA17 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		844897371F06441100CD35DD /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		844897381F06441100CD35DD /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		8448973A1F06448000CD35DD /* ListControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListControl.h; sourceTree = "<group>"; };
+		8448973B1F06448000CD35DD /* ListControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListControl.m; sourceTree = "<group>"; };
+		84EC3FE01F064D1A00267D4A /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		84EC3FE11F064D1A00267D4A /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		84EC3FE41F06551300267D4A /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		84EC3FE51F06551300267D4A /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		84EC3FE61F06551300267D4A /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		84EC3FE71F06551300267D4A /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +221,12 @@
 				840853841F04D61300D2AA17 /* AppDelegate.m */,
 				840853861F04D61300D2AA17 /* ViewController.h */,
 				840853871F04D61300D2AA17 /* ViewController.m */,
+				844897371F06441100CD35DD /* ListViewController.h */,
+				844897381F06441100CD35DD /* ListViewController.m */,
+				8448973A1F06448000CD35DD /* ListControl.h */,
+				8448973B1F06448000CD35DD /* ListControl.m */,
+				84EC3FE01F064D1A00267D4A /* TableViewCell.h */,
+				84EC3FE11F064D1A00267D4A /* TableViewCell.m */,
 				840853891F04D61300D2AA17 /* Main.storyboard */,
 				8408538F1F04D61300D2AA17 /* Assets.xcassets */,
 				840853911F04D61300D2AA17 /* LaunchScreen.storyboard */,
@@ -247,6 +268,7 @@
 		840853BC1F04D8E600D2AA17 /* Des */ = {
 			isa = PBXGroup;
 			children = (
+				84EC3FE31F06551300267D4A /* YYFPSLabel */,
 				840853E11F04DE4600D2AA17 /* SDWebImage */,
 				840853BD1F04D8E600D2AA17 /* Masonry */,
 			);
@@ -327,6 +349,17 @@
 				840854081F04DE4600D2AA17 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		84EC3FE31F06551300267D4A /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				84EC3FE41F06551300267D4A /* YYFPSLabel.h */,
+				84EC3FE51F06551300267D4A /* YYFPSLabel.m */,
+				84EC3FE61F06551300267D4A /* YYWeakProxy.h */,
+				84EC3FE71F06551300267D4A /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +512,7 @@
 				840853821F04D61300D2AA17 /* main.m in Sources */,
 				8408540F1F04DE4600D2AA17 /* SDWebImageDecoder.m in Sources */,
 				840853DD1F04D8E600D2AA17 /* View+MASAdditions.m in Sources */,
+				84EC3FE21F064D1A00267D4A /* TableViewCell.m in Sources */,
 				840854141F04DE4600D2AA17 /* UIButton+WebCache.m in Sources */,
 				840854121F04DE4600D2AA17 /* SDWebImageManager.m in Sources */,
 				840853D51F04D8E600D2AA17 /* MASCompositeConstraint.m in Sources */,
@@ -490,6 +524,8 @@
 				840854181F04DE4600D2AA17 /* UIImageView+HighlightedWebCache.m in Sources */,
 				840854101F04DE4600D2AA17 /* SDWebImageDownloader.m in Sources */,
 				840854131F04DE4600D2AA17 /* SDWebImagePrefetcher.m in Sources */,
+				844897391F06441100CD35DD /* ListViewController.m in Sources */,
+				8448973C1F06448000CD35DD /* ListControl.m in Sources */,
 				840853D71F04D8E600D2AA17 /* MASConstraintMaker.m in Sources */,
 				840853DB1F04D8E600D2AA17 /* NSArray+MASAdditions.m in Sources */,
 				840854111F04DE4600D2AA17 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -497,8 +533,10 @@
 				840853D81F04D8E600D2AA17 /* MASLayoutConstraint.m in Sources */,
 				840854161F04DE4600D2AA17 /* UIImage+MultiFormat.m in Sources */,
 				8408540E1F04DE4600D2AA17 /* SDWebImageCompat.m in Sources */,
+				84EC3FE91F06551300267D4A /* YYWeakProxy.m in Sources */,
 				8408540D1F04DE4600D2AA17 /* SDImageCacheConfig.m in Sources */,
 				840853BB1F04D66500D2AA17 /* UIView+RoundCorner.m in Sources */,
+				84EC3FE81F06551300267D4A /* YYFPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,6 +778,7 @@
 				840853AF1F04D61300D2AA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840853B01F04D61300D2AA17 /* Build configuration list for PBXNativeTarget "CornerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -748,6 +787,7 @@
 				840853B21F04D61300D2AA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840853B31F04D61300D2AA17 /* Build configuration list for PBXNativeTarget "CornerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +796,7 @@
 				840853B51F04D61300D2AA17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

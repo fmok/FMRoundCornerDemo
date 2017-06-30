@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIView+RoundCorner.h"
 #import "UIImageView+WebCache.h"
+#import "ListViewController.h"
 
 @interface ViewController ()
 
@@ -28,10 +29,16 @@
     [self updateContent];
 }
 
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    ListViewController *vc = [[ListViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
 #pragma mark - Private methods
 - (void)configUI
 {
-    __weak typeof(self) weakSelf = self;
+    WS(weakSelf);
     [self.view addSubview:self.firstView];
     [self.firstView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(weakSelf.view);
